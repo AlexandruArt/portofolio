@@ -36,7 +36,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/artem-alexandru-5b5709175/"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,7 +45,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/alexandruart"
             target="_blank"
             rel="noreferrer"
           >
