@@ -118,3 +118,15 @@
       }
     }
   }
+
+  @media only screen and (max-width: 860px) {
+    .map-wrap {
+      margin-right :5%;
+      width: 35%;
+      height:45%;
+      margin-top: 50%;
+    }
+    .info-map{
+      display:none;
+    }
+}
