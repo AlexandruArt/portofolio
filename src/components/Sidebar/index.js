@@ -40,11 +40,11 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
 
-        <NavLink 
+       /* <NavLink 
         onClick={()=> setShowNav(false)}
         activeclassname="active" className="porto-link" to="/portofolio">
           <FontAwesomeIcon icon={faBoxArchive} color="#4d4d4e" />
-        </NavLink>
+        </NavLink> */
 
         <NavLink 
         onClick={()=> setShowNav(false)}
