@@ -9,7 +9,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #022c43;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  overflow:hidden;
   display: block;
+}
+
+@media screen and(max-width: 1200px){
+  body{
+    overflow:visible;
+  }
 }

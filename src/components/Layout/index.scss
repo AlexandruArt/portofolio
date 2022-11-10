@@ -39,17 +39,10 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
   }
+
   .container.contact-page,
-  .container.about-page {
-    .text-zone {
-      position: absolute;
-      left: 10%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 35%;
-      vertical-align: middle;
-      display: table-cell;
-      max-height: 90%;
+  .container.about-page,
+  .container.portofolio-page {
   
       h1 {
         font-size: 53px;
@@ -60,6 +53,7 @@
         position: relative;
         margin-bottom: 40px;
         left: -10px;
+        
   
         &:before {
           content: '<h1>';
@@ -107,27 +101,40 @@
           animation-delay: 1.4s;
         }
       }
-    }
-    @media only screen and (max-width: 860px) {
       .text-zone {
-        left :20%;
-      }
-  }
-    .text-animate-hover {
-      &:hover {
-        color: #fff;
-      }
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;}}
+        
+        
+        
+        @media screen and(max-width: 1200px){
+    .page{
+      position: initial;
+      background:rgb(2,44,67); ;
     }
-  
+    .container{
+      position: initial;
+      height: auto;
+      min-height: auto;
 
-    @media only screen and(max-width: 860px){
-       .container {
-    width: 100%;
-    height: auto;
-    padding-bottom: 58px;
-    box-sizing: border-box;
-    position: relative;
-    top: 0;
-    overflow: hidden;}
-}
-  }
+      &.about-page,
+      &.contact-page,
+      &.portofolio-page{
+        .text-zone{
+          position: initial;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+      }
+
+    }
+        }
